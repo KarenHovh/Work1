@@ -10,6 +10,20 @@ namespace simple_type
 	{
 		static void Main(string[] args)
 		{
+			//-------------------------variable--------------
+			byte a = 10;
+			int b = 0;
+			Console.WriteLine(b);
+
+			Console.WriteLine("------int/ float-----------");
+
+
+			int c = 255;
+			float d = 0f;
+			d = c;
+			Console.WriteLine(c);
+
+
 			Console.WriteLine("------int-------");
 
 			int z_int = 4;
@@ -59,12 +73,12 @@ namespace simple_type
 			Console.WriteLine($"{a_byte} * {b_byte} = {Mul_byte}");
 
 
-			if (b_byte != 0) 
+			if (b_byte != 0)
 			{
 
 				Console.WriteLine($"{a_byte} / {b_byte} = {Div_byte}");
 			}
-			
+
 			else
 			{
 				Console.WriteLine("Can't divide by 0");
@@ -72,11 +86,7 @@ namespace simple_type
 
 			Console.WriteLine("-----string-----");
 
-			//string
-			string a = "Hello ";
-			string b = "world";
-			Console.WriteLine(a + b);
-			Console.WriteLine(a + b == "Hello World");
+			
 
 
 			Console.WriteLine("-----long----");
@@ -87,8 +97,15 @@ namespace simple_type
 			long longValue2 = 0x12547848;
 			Console.WriteLine(longValue2);
 
-			long longValue3 = (longValue1*longValue2);
+			long longValue3 = (longValue1 * longValue2);
 			Console.WriteLine(longValue3);
+
+
+			//const pi
+			const double pi = 3.141;
+			Console.WriteLine(pi);
+
+
 
 			Console.ReadKey();
 		}
