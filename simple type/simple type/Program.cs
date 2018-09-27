@@ -59,7 +59,7 @@ namespace simple_type
 			Console.WriteLine($"{a_byte} * {b_byte} = {Mul_byte}");
 
 
-			if (b_byte != 0) ;
+			if (b_byte != 0) 
 			{
 
 				Console.WriteLine($"{a_byte} / {b_byte} = {Div_byte}");
