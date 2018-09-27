@@ -26,11 +26,11 @@ namespace Homework_2
 
 			if (weigh < 99.9)
 			{
-				Console.WriteLine("Dear  {lastname} {firstname} you are {year} year old and thin man");
+				Console.WriteLine($"Dear  {lastname} {firstname} you are {year} year old and thin man");
 			}
 			else
 			{
-				Console.WriteLine("Dear  {lastname} {firstname} you are {year} year old and fat man");
+				Console.WriteLine($"Dear  {lastname} {firstname} you are {year} year old and fat man");
 
 				
 			}
