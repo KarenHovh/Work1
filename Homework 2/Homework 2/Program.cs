@@ -18,7 +18,7 @@ namespace Homework_2
 
 
 			Console.Write("Enter your Birth Year ");
-			int birtyear = Convert.ToInt16(Console.ReadLine());
+			short birthyear = Convert.ToInt16(Console.ReadLine());
 			int year = 2018 - birtyear;
 
 			Console.Write("Enter your Weight ");
